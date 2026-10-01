@@ -1,0 +1,77 @@
+[
+  {
+    "id": "route_001",
+    "name": "上海·周杰伦一日星迹",
+    "theme": "经典一日",
+    "celebrityId": "cele_jaychou",
+    "cityId": "city_shanghai",
+    "authorId": "user_003",
+    "isAiGenerated": false,
+    "stops": [
+      { "locationId": "loc_sh_001", "arriveAt": "10:30", "leaveAt": "11:20", "stayMin": 50, "travelMode": null, "travelMin": 0, "distanceFromPrevKm": 0, "note": "先去地标，上午人少好拍" },
+      { "locationId": "loc_sh_003", "arriveAt": "11:45", "leaveAt": "12:45", "stayMin": 60, "travelMode": "metro", "travelMin": 25, "distanceFromPrevKm": 4.6, "note": "中午江边光线正好" },
+      { "locationId": "loc_sh_005", "arriveAt": "13:05", "leaveAt": "13:50", "stayMin": 45, "travelMode": "walk", "travelMin": 20, "distanceFromPrevKm": 1.6, "note": "沿江走一段，吹吹风" },
+      { "locationId": "loc_sh_004", "arriveAt": "14:10", "leaveAt": "15:10", "stayMin": 60, "travelMode": "metro", "travelMin": 15, "distanceFromPrevKm": 2.8, "note": "巷子里慢慢逛" },
+      { "locationId": "loc_sh_006", "arriveAt": "15:40", "leaveAt": "16:10", "stayMin": 30, "travelMode": "metro", "travelMin": 20, "distanceFromPrevKm": 3.6, "note": "喝杯奶茶，写张留言" },
+      { "locationId": "loc_sh_010", "arriveAt": "16:30", "leaveAt": "17:30", "stayMin": 60, "travelMode": "walk", "travelMin": 15, "distanceFromPrevKm": 1.2, "note": "最后留点时间看展，慢慢逛" }
+    ],
+    "totalMin": 420,
+    "totalKm": 13.8,
+    "walkingKm": 2.8,
+    "desc": "第一次来上海打卡，跟着这条线走不会错",
+    "likes": 1200,
+    "collected": 340,
+    "postedAt": "2026-09-05",
+    "planSnapshot": null,
+    "adjustments": null
+  },
+  {
+    "id": "route_002",
+    "name": "外滩到梅奔的夜景线",
+    "theme": "夜景拍照",
+    "celebrityId": "cele_jaychou",
+    "cityId": "city_shanghai",
+    "authorId": "user_005",
+    "isAiGenerated": false,
+    "stops": [
+      { "locationId": "loc_sh_003", "arriveAt": "16:30", "leaveAt": "17:30", "stayMin": 60, "travelMode": null, "travelMin": 0, "distanceFromPrevKm": 0, "note": "先到江边等日落" },
+      { "locationId": "loc_sh_005", "arriveAt": "17:50", "leaveAt": "18:35", "stayMin": 45, "travelMode": "walk", "travelMin": 20, "distanceFromPrevKm": 1.6, "note": "砖墙和晚霞同框" },
+      { "locationId": "loc_sh_012", "arriveAt": "18:55", "leaveAt": "19:50", "stayMin": 55, "travelMode": "walk", "travelMin": 20, "distanceFromPrevKm": 1.5, "note": "晚饭在这里解决，卤肉饭必点" },
+      { "locationId": "loc_sh_001", "arriveAt": "20:20", "leaveAt": "21:20", "stayMin": 60, "travelMode": "metro", "travelMin": 25, "distanceFromPrevKm": 4.2, "note": "最后去拍场馆夜景，亮灯超好看" }
+    ],
+    "totalMin": 290,
+    "totalKm": 7.3,
+    "walkingKm": 3.1,
+    "desc": "傍晚出发，一路拍到晚上亮灯",
+    "likes": 890,
+    "collected": 210,
+    "postedAt": "2026-09-18",
+    "planSnapshot": null,
+    "adjustments": null
+  },
+  {
+    "id": "route_003",
+    "name": "同款美食半日线",
+    "theme": "美食同款",
+    "celebrityId": "cele_jaychou",
+    "cityId": "city_shanghai",
+    "authorId": "user_007",
+    "isAiGenerated": false,
+    "stops": [
+      { "locationId": "loc_sh_007", "arriveAt": "11:00", "leaveAt": "11:50", "stayMin": 50, "travelMode": null, "travelMin": 0, "distanceFromPrevKm": 0, "note": "午饭吃面，记得点招牌和素鸡" },
+      { "locationId": "loc_sh_004", "arriveAt": "12:15", "leaveAt": "13:00", "stayMin": 45, "travelMode": "metro", "travelMin": 15, "distanceFromPrevKm": 2.6, "note": "吃完顺路逛田子坊消食" },
+      { "locationId": "loc_sh_006", "arriveAt": "13:30", "leaveAt": "14:05", "stayMin": 35, "travelMode": "metro", "travelMin": 18, "distanceFromPrevKm": 3.8, "note": "下午茶安排上，留言板打卡" },
+      { "locationId": "loc_sh_011", "arriveAt": "14:50", "leaveAt": "15:30", "stayMin": 40, "travelMode": "metro", "travelMin": 22, "distanceFromPrevKm": 7.2, "note": "大学路拍拍照，傍晚光线好" },
+      { "locationId": "loc_sh_012", "arriveAt": "17:35", "leaveAt": "18:25", "stayMin": 50, "travelMode": "metro", "travelMin": 30, "distanceFromPrevKm": 9.1, "note": "中间空档自由安排，晚饭前到即可" }
+    ],
+    "totalMin": 445,
+    "totalKm": 22.7,
+    "walkingKm": 0,
+    "desc": "半天吃遍社区推荐的小店",
+    "likes": 560,
+    "collected": 130,
+    "postedAt": "2026-09-25",
+    "planSnapshot": null,
+    "adjustments": null
+  }
+]

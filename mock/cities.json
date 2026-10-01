@@ -1,0 +1,18 @@
+[
+  {
+    "id": "city_shanghai",
+    "name": "上海",
+    "nameEn": "Shanghai",
+    "pinyin": "shanghai",
+    "center": { "lng": 121.4737, "lat": 31.2304 },
+    "heroImage": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    "id": "city_beijing",
+    "name": "北京",
+    "nameEn": "Beijing",
+    "pinyin": "beijing",
+    "center": { "lng": 116.4074, "lat": 39.9042 },
+    "heroImage": "https://images.unsplash.com/photo-1548919973-5cef591cdbc9?auto=format&fit=crop&w=1600&q=80"
+  }
+]

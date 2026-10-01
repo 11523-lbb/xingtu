@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cele_jaychou",
+    "name": "周杰伦",
+    "nameEn": "Jay Chou",
+    "avatar": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%230B1026'/><stop offset='1' stop-color='%23555CA8'/></linearGradient></defs><circle cx='48' cy='48' r='48' fill='url(%23g)'/><text x='48' y='50' font-family='sans-serif' font-size='40' fill='%23EACD8F' text-anchor='middle' dominant-baseline='middle'>%E5%91%A8</text></svg>",
+    "tagline": "把故事写进旋律里的人",
+    "bio": "华语流行乐唱作人。本数据集中作为追星打卡演示场景的主角，星途社区内沉淀了其在上海的打卡地点与攻略内容（均为演示数据）。",
+    "category": "singer",
+    "fansCount": 128000,
+    "cities": ["city_shanghai"],
+    "cardImage": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "cele_jjlin",
+    "name": "林俊杰",
+    "nameEn": "JJ Lin",
+    "avatar": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%230B1026'/><stop offset='1' stop-color='%23555CA8'/></linearGradient></defs><circle cx='48' cy='48' r='48' fill='url(%23g)'/><text x='48' y='50' font-family='sans-serif' font-size='40' fill='%23EACD8F' text-anchor='middle' dominant-baseline='middle'>%E6%9E%97</text></svg>",
+    "tagline": "粉丝口中的「行走的 CD」",
+    "bio": "华语流行乐歌手。本数据集中作为多明星扩展演示的第二位明星，其在上海的相关内容为演示数据。",
+    "category": "singer",
+    "fansCount": 86000,
+    "cities": ["city_shanghai"],
+    "cardImage": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": "cele_mayday",
+    "name": "五月天",
+    "nameEn": "Mayday",
+    "avatar": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='96'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%230B1026'/><stop offset='1' stop-color='%23555CA8'/></linearGradient></defs><circle cx='48' cy='48' r='48' fill='url(%23g)'/><text x='48' y='50' font-family='sans-serif' font-size='40' fill='%23EACD8F' text-anchor='middle' dominant-baseline='middle'>%E4%BA%94</text></svg>",
+    "tagline": "青春、热血与星空",
+    "bio": "华语摇滚乐团。本数据集中作为多明星扩展演示的第三位明星，其在上海的相关内容为演示数据。",
+    "category": "band",
+    "fansCount": 95000,
+    "cities": ["city_shanghai"],
+    "cardImage": "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1200&q=80"
+  }
+]

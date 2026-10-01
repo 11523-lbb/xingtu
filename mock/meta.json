@@ -1,0 +1,10 @@
+{
+  "name": "星途 Demo Dataset",
+  "version": "1.0.0",
+  "scope": {
+    "primaryCity": "city_shanghai",
+    "primaryCelebrity": "cele_jaychou"
+  },
+  "disclaimer": "本数据集为「星途」产品 Demo 示例数据。全部用户、帖子、评论、路线均为虚构；涉及真实公众人物与场所的内容仅为产品功能演示，不代表任何真实关系、事件或代言。标注 sourceType: 'public' 仅指该场所本身为真实公开存在，不表示该场所与任何明星存在经核实的真实关联；标注 sourceType: 'demo' 的内容为星途 Demo 演示数据（演示关联 / 假设关联场景），其中虚构店铺、留言墙、展厅等在现实中不存在。所有粉丝数、点赞数、打卡数均为星途社区内演示指标，非真实平台数据。",
+  "generatedAt": "2026-10-01T00:00:00+08:00"
+}

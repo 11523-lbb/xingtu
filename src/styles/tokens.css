@@ -1,0 +1,132 @@
+/* ============================================================
+   星途 Design Tokens（Stage 2 设计系统落地）
+   命名：--xr-{类别}-{名称}；双域设计：光域(社区) / 夜域(品牌时刻)
+   ============================================================ */
+:root {
+  /* —— 夜空蓝（夜域表面 / 品牌锚色）—— */
+  --navy-950: #070a1c;
+  --navy-900: #0b1026;
+  --navy-850: #10163a;
+  --navy-800: #161e46;
+  --navy-700: #212b5e;
+  --navy-600: #2e3b7a;
+
+  /* —— 暮紫（光域辅助色）—— */
+  --violet-700: #4a4f9a;
+  --violet-600: #555ca8;
+  --violet-500: #6b71bc;
+  --violet-400: #8e93cc;
+  --violet-300: #b4b8de;
+  --violet-200: #d2d5ec;
+  --violet-100: #e9eaf6;
+  --violet-50: #f4f5fb;
+
+  /* —— 星光金（品牌强调 + AI 功能色）—— */
+  --gold-700: #a87f33;
+  --gold-600: #c39a45;
+  --gold-500: #dfb96a;
+  --gold-400: #eacd8f;
+  --gold-300: #f3e0b4;
+  --gold-200: #f8edd4;
+  --gold-100: #fbf5e7;
+  --gold-50: #fdfaf1;
+
+  /* —— 柔粉（社区情感色）—— */
+  --pink-600: #d4899b;
+  --pink-500: #e5a3b3;
+  --pink-300: #f5d6de;
+  --pink-100: #fdf3f6;
+
+  /* —— 中性（暖调灰）—— */
+  --neutral-950: #191a21;
+  --neutral-900: #23242d;
+  --neutral-800: #33343e;
+  --neutral-700: #4a4b55;
+  --neutral-600: #62636d;
+  --neutral-500: #7c7d86;
+  --neutral-400: #9c9da5;
+  --neutral-300: #bfc0c7;
+  --neutral-200: #e0e1e6;
+  --neutral-150: #ebecef;
+  --neutral-100: #f2f3f6;
+  --neutral-50: #f8f8fa;
+
+  /* —— 语义色 —— */
+  --success: #3d9a6c;
+  --success-bg: #e8f5ee;
+  --success-text: #2c7a54;
+  --warning: #c98a2e;
+  --warning-bg: #fbf2e0;
+  --warning-text: #96661c;
+  --error: #cb5050;
+  --error-bg: #fbebeb;
+  --error-text: #a83a3a;
+
+  /* —— 表面（光域默认）—— */
+  --xr-bg: var(--neutral-50);
+  --xr-surface: #ffffff;
+  --xr-border: var(--neutral-200);
+  --xr-border-strong: var(--neutral-300);
+  --xr-text: var(--neutral-950);
+  --xr-text-2: var(--neutral-700);
+  --xr-text-3: var(--neutral-500);
+  --xr-text-4: var(--neutral-400);
+
+  /* —— AI 专用（夜空 + 星光金，无科技蓝紫）—— */
+  --xr-ai-surface: var(--navy-950);
+  --xr-ai-accent: var(--gold-500);
+  --xr-ai-accent-strong: var(--gold-600);
+  --xr-ai-text: #f4f5f9;
+  --xr-ai-text-2: rgba(244, 245, 249, 0.62);
+  --xr-ai-border: rgba(255, 255, 255, 0.08);
+  --xr-ai-card: rgba(255, 255, 255, 0.05);
+
+  /* —— 阴影（轻盈分层：边框为主、阴影为辅）—— */
+  --shadow-1: 0 1px 2px rgba(16, 22, 48, 0.04), 0 2px 6px rgba(16, 22, 48, 0.04);
+  --shadow-2: 0 2px 6px rgba(16, 22, 48, 0.05), 0 10px 28px rgba(16, 22, 48, 0.08);
+  --shadow-3: 0 6px 16px rgba(16, 22, 48, 0.07), 0 20px 48px rgba(16, 22, 48, 0.12);
+  --night-1: 0 8px 24px rgba(4, 6, 18, 0.5);
+  --night-2: 0 16px 48px rgba(4, 6, 18, 0.65);
+  --glow-star: 0 0 0 3px rgba(223, 185, 106, 0.16), 0 0 14px rgba(223, 185, 106, 0.28);
+
+  /* —— 圆角（8/12/16/20/999 五档纪律）—— */
+  --r-xs: 8px;
+  --r-sm: 12px;
+  --r-md: 16px;
+  --r-lg: 20px;
+  --r-full: 999px;
+
+  /* —— 间距（4px 体系）—— */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-10: 40px;
+  --s-12: 48px;
+  --s-16: 64px;
+
+  /* —— 字号层级（8 级）—— */
+  --fs-display: 32px;
+  --fs-h1: 24px;
+  --fs-h2: 20px;
+  --fs-h3: 17px;
+  --fs-body: 15px;
+  --fs-body-sm: 14px;
+  --fs-caption: 13px;
+  --fs-tag: 12px;
+
+  /* —— 字体 —— */
+  --font-cn: 'PingFang SC', 'HarmonyOS Sans SC', 'MiSans', 'Source Han Sans SC',
+    'Microsoft YaHei UI', sans-serif;
+  --font-num: 'Inter', 'SF Pro', system-ui, sans-serif;
+
+  /* —— 布局 —— */
+  --nav-h: 64px;
+  --content-max: 1240px;
+  --page-gutter: 32px;
+  --rail-w: 340px;
+  --rail-gap: 24px;
+}
